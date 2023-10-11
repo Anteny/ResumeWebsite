@@ -43,22 +43,34 @@
           Engineers. After I graduated in June 2023 I took on that role and 
           have since created several programs for Vanguard. Unfortunately it
           is an ITAR facility and I cannot share any of the programs code.
-          I have worked on a very large project to automate a manual test 
-          reducing the time of the test from 45 minutes to 8 minutes. I 
+          <br />I have worked on a very large project to automate a manual test 
+          reducing the time of the test from 45 minutes to 8 minutes. <br />I 
           created a project that reads measurements from a multimeter and writes
-          them to a file in CSV format. I have also created a program that executes
-          command line arguements on multiple applications and returns the responses
-          to the user in a readable format.
+          them to a file in CSV format for import into excel. <br />I have also created 
+          a program that executes command line arguements on multiple applications and 
+          returns the responses to the user in a readable format.
         </p>
       </div>
       <div class="projects" id="projects">
         <h1 class="head">Projects</h1>
+        <h2 class="ProjectName">Pacstar ETL</h2>
         <p class="output">
-          The previous projects I have completed are compiled in the git
-          repository below. While all the programs compiled show my progress
-          throughout my education, CS163 program 2 and CS202 program 3 are the
-          best showcases of my education. Since both of these programs were
-          homework assignments they don't have names.
+          This was my senior project. During this project I worked with a group of
+          six other students. We were tasked with the company Pacstar to make a 
+          program that they would incorporate into their company process. What Pacstar
+          needed was a program that extraced their test data, cleaned it up, then uploaded
+          it to a database they created. One unique part of this project is that the team
+          emulated a Pacstar software engineering team. This included weekly check-ins, 
+          using Jira and Confluence, and implementing code reviews. As an ETL program this 
+          project had three major parts. <br />The first part of the project was the extraction.
+          The tests that Pacstar ran resulted in hundreds of thousands of lines per test. Our
+          program extracted only relevent information which was determined by Pacstar. <br />
+          The second part of the program is tranformation. While we got the relevent data locations
+          not all of the data was correct. We sanatized the data removing any unwanted characters 
+          that could cause security risks, and making sure the data was in the correct format.
+          <br />The last part of the program was loading the extracted and transformed data into
+          Pacstars database. Knowing the structure of the data and database made creating the SQL 
+          commands easy.
         </p>
         <p class="output">
           CS163 Program 2 was built to be the card game War. However it was also
