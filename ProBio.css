@@ -36,7 +36,6 @@
   padding: 40px 0;
   background-color: var(--cyan);
   width: 250px;
-  height: 100px;
 }
 
 .route:hover {
@@ -88,6 +87,10 @@
   font-size: 24px;
 }
 
+.ProjectName {
+    text-align: center;
+}
+
 .git {
   text-align: center;
   color: var(--black);
@@ -98,7 +101,10 @@
   color: var(--black);
   display: grid;
   font-size: 24px;
-  height: 1078px;
+}
+
+.ContactOutput {
+    text-align: center;
 }
 
 .ContactForm {
