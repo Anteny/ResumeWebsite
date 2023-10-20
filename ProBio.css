@@ -22,7 +22,7 @@
 }
 
 .links {
-  background-color: var(--cyan);
+  background-color: var(--white);
   color: var(--black);
   display: grid;
   font-size: 24px;
